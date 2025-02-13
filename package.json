@@ -1,7 +1,7 @@
 {
-  "name": "atividade-filmes-api",
+  "name": "star-cafe",
   "version": "1.0.0",
-  "description": "atividade de Back-end de Filmes",
+  "description": "atividade de Back-end sobre uma cafeteria",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,7 +22,7 @@
   "author": "Leonardo Oliveira",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PedroLeoo07/Star/issues"
+    "url": "https://github.com/PedroLeoo07/Star-Cafe/issues"
   },
   "homepage": "https://github.com/Star-Cafe#readme",
   "dependencies": {

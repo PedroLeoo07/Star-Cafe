@@ -1,5 +1,5 @@
-const Movie = require("../models/Movie");
-const MovieList = require("../models/MovieList");
+const Movie = require("../models/Menu");
+const MovieList = require("../models/MenuList");
 
 const lista = new MovieList()
 const filme1 = new Movie('Velozes e Furiosos 5', 'Justin Lin', 'Universal', '15 de abril de 2011');
