@@ -1,33 +1,13 @@
-class MovieList {
+class MenuList {
     constructor() {
-        this.movies = [];
+        this.menu = [];
     }
-    addMovie(movie) {
-        this.movies.push(movie);
+    getAllMenu(){
+        return this.menu;
     }
-    getAllMovies(){
-        return this.movies;
-    }
-
-    getMovieById(id){
-        const movie = this.movies.find(movie => movie.id == id);
-        if(!movie){
-            throw new Error("Filme não encontrado");
-        }
-        return movie;
-    }
-    updateMovie(id, updateData) {
-        const movie = getMovieById(id);
-        Object.assign(movie, updateData);
-        return movie;
-    }
-    deleteMovie(id) {
-        this.movies = this.movies.filter(movie => movie.id != id);
-    }
-
-    getTotalMovies(){
-        return this.movies.length;
+    addMenu(menu){
+        this.menu.push(menu);
     }
 }
 
-module.exports = MovieList;
+module.exports = MenuList;
