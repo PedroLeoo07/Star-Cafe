@@ -28,7 +28,7 @@ const router = {
 
     getAllMovies: (req, res) => {
         try {
-            const movies = lista.getAllMovies()
+            const movies = lista.getAllMovies();
             res.status(200).json(movies);
         } catch (error) {
             res.status(404).json({message: 'Erro ao buscar o filme', error});
@@ -38,7 +38,7 @@ const router = {
     getMovieById: (req, res) => {
         try {
             const id = req.params.id;
-            res.status(200).json(lista.getMovieById(id))
+            res.status(200).json(lista.getMovieById(id));
         } catch (error) {
             res.status(404).json({
                 message: 'Erro ao buscar o filme por id',
@@ -48,7 +48,7 @@ const router = {
     },
     updateMovie: (req, res) => {
         try{
-            res.status(200).json(lista.updateMovie(req.params.id, req.body))
+            res.status(200).json(lista.updateMovie(req.params.id, req.body));
         } catch (error) {
             res.status(404).json({
                 message: "Erro ao atualizar",
