@@ -9,4 +9,4 @@ router.get("/ordem/:id", ordemController.getOrdemById);
 router.post("/ordem", ordemController.addOrdem);
 router.delete("/ordem/:id", ordemController.deleteOrdem);
 
-module.exports = router
+module.exports = router;
