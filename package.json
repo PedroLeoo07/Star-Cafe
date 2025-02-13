@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PedroLeoo07/back-end-filmes.git"
+    "url": "git+https://github.com/PedroLeoo07/Star-Cafe.git"
   },
   "keywords": [
     "Senai",
@@ -22,9 +22,9 @@
   "author": "Leonardo Oliveira",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PedroLeoo07/back-end-filmes/issues"
+    "url": "https://github.com/PedroLeoo07/Star/issues"
   },
-  "homepage": "https://github.com/PedroLeoo07/back-end-filmes#readme",
+  "homepage": "https://github.com/Star-Cafe#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
