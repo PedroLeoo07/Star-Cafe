@@ -28,5 +28,14 @@ const router = {
             res.status(400).json({ message: "Erro ao buscar os pedidos", error});
         }
     },
+    getOrdemById: (req, res) => {
+        try{
+            const {id} = req.paramns;
+            const ordem = pedido.getOrdemById(id);
+            return res.status(200).json(ordem);
+        } catch (error) {
+            res.status(400).json({ message: "Erro ao buscar pedido", error})
+        }
+    },
     
 }
