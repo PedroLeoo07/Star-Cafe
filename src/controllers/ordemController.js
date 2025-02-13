@@ -37,5 +37,14 @@ const router = {
             res.status(400).json({ message: "Erro ao buscar pedido", error})
         }
     },
-    
+    deleteOrdem: (req, res) => {
+        try{
+            pedido.deleteOrdem(req.paramns.id);
+            res.status(200).json({ message: "Pedido deletado com sucesso"});
+        } catch (error) {
+            res.status(404).json({ message: "Erro ao deletar pedido!", error});
+        }
+    }
 }
+
+module.exports = router;
