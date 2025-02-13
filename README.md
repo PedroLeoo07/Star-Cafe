@@ -18,3 +18,14 @@ http://localhost:3000/api/v1/cafe/1
 
 O objetivo do projeto é criar uma API utilizando o Node.js e o Express que retorne uma lista de cafés com suas respectivas informações.
 
+## Requisição em JSON
+
+```json
+{
+  "nome": "Cappuccino",
+  "preco": "R$5,00",
+  "quantidade": "2"
+}
+
+
+```
