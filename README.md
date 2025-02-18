@@ -1,14 +1,25 @@
-## Star Cafe
+## ☕Atividade Star-café☕
 
-### Recursos utilizados
+Essa atividade foi desenvolvida com o propósito de desenvolver uma
+API Rest para uma cafeteria famosa chamada Star-Café, utilizando o JavaScript voltado
+para a programação Back-End (Node.js), esse projeto permite que os clientes possam
+fazer o seu pedido sem dor de cabeça e de uma forma muito mais prática
 
-node.js
-express
+## Softwares utilizados
+Postman
+<br>
+Visual Studio Code
 
-### Como rodar
-
-npm install
-node app.js
+## Dependências
+.env
+<br>
+Express
+<br>
+Cors
+<br>
+Uuid
+<br>
+Nodemon
 
 ### Como testar
 
